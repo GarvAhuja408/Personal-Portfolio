@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 
-import { AiOutlineDownload } from "react-icons/ai";
+
 import ReactGA from "react-ga";
 
 function Resume() {
