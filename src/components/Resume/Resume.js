@@ -23,9 +23,10 @@ function Resume() {
             title="Infra managed service Associate"
             date="2023 - 2025"
             content={[
-              "Developed and maintained responsive frontend applications using React.js, JavaScript, HTML, and CSS.",
-              "Built reusable React components and integrated REST APIs to deliver interactive and user-friendly web applications.",
-              "Worked on an internal enterprise application used by 200+ employees, focusing on performance, usability, and responsive design.",
+              "Managed enterprise SQL environments across 150–200 on-prem servers, 120+ Azure VMs, and 50+ Azure SQL MIs, supporting 600+ databases.",
+              "Administered SQL Server Always On Availability Groups (AOAG), including failovers, DR drills, and high-availability configuration.",
+              "Executed 40+ database migrations across on-prem, Azure SQL MI, and lift-and-shift environments with production cutovers.",
+              "Optimized SQL Server performance through query and index tuning, execution-plan analysis, TEMPDB optimization, and resolving blocking/deadlocks."
             ]}
           />
             

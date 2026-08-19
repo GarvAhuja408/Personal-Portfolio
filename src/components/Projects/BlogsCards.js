@@ -21,6 +21,17 @@ function Blogs() {
           />
         </Col>
       </Row>
+
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <BlogsCards
+            imgPath={wanderlustImg}
+            title="Wanderlust"
+            site="Full Stack Web Application"
+            link="YOUR_GITHUB_REPO_LINK"
+          />
+        </Col>
+      </Row>
     </Container>
   );
 }

@@ -36,6 +36,33 @@ function Projects() {
             />
           </Col>
         </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={InvestPro}
+              isBlog={false}
+              title="InvestPro"
+              description="A full-stack stock trading platform built with React.js, Node.js, Express.js, and MongoDB, featuring JWT-based authentication, portfolio management, holdings and position tracking, order management, and RESTful APIs"
+              link="https://github.com/GarvAhuja408/TradePro-A-stock-trading-web-app"
+              liveLink="https://zerodha-a-stock-trading-web-app.vercel.app/"
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={codeReview}
+              isBlog={false}
+              title="AI Code reviewer"
+              description="A full-stack AI-powered web application that analyzes source code and provides automated feedback, suggestions, and improvements. Built using grok API ,with AI integration for intelligent code review"
+              link="https://github.com/GarvAhuja408/AI-Code-reviewer"
+              liveLink="https://ai-code-reviewer-garv15.vercel.app/"
+            />
+          </Col>
+        </Row>
+
       </Container>
     </Container>
   );
