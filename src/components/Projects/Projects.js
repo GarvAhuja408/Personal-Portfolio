@@ -37,9 +37,7 @@ function Projects() {
               liveLink="https://wanderlust-7gbb.onrender.com/listings"
             />
           </Col>
-        </Row>
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={codeReview}
@@ -50,9 +48,7 @@ function Projects() {
               liveLink="https://zerodha-a-stock-trading-web-app.vercel.app/"
             />
           </Col>
-        </Row>
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={investPro}
