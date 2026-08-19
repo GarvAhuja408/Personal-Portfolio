@@ -5,8 +5,8 @@ import Particle from "../Particle";
 import ReactGA from "react-ga";
 
 import wanderlust from "../../Assets/Projects/wanderlust.PNG";
-import codeReview from "../../Assets/Projects/codeReview";
-import investPro from "../../Assets/Projects/InvestPro";
+import codeReview from "../../Assets/Projects/codeReview.PNG";
+import investPro from "../../Assets/Projects/InvestPro.PNG";
 
 function Projects() {
   useEffect(() => {
