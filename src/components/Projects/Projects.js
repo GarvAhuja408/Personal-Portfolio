@@ -7,6 +7,8 @@ import ReactGA from "react-ga";
 import wanderlust from "../../Assets/Projects/wanderlust.PNG";
 import codeReview from "../../Assets/Projects/codeReview.PNG";
 import investPro from "../../Assets/Projects/InvestPro.PNG";
+import VeriChain from "../../Assets/Projects/verichain.PNG";
+import Neura from "../../Assets/Projects/neura.PNG";
 
 function Projects() {
   useEffect(() => {
@@ -27,6 +29,29 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={VeriChain}
+              isBlog={false}
+              title="VeriChain : Employment Document Verification System"
+              description="A tamper-evident employment document verification system built with Python, FastAPI, SQLAlchemy, SQLite, SHA-256 hash chaining, and automated document comparison using Python DiffLib."
+              link="https://github.com/GarvAhuja408/VeriChain---Employment-Document-Verification-Provenance-System"
+              liveLink="https://veri-chain-employment-document-veri.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Neura}
+              isBlog={false}
+              title="Neura"
+              description="An AI-powered conversational chatbot built with React, Node.js, Express.js, and Groq API. It provides real-time AI responses through a clean and responsive chat interface."
+              link="https://github.com/GarvAhuja408/Neura"
+              liveLink="https://neura-lilac.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wanderlust}
